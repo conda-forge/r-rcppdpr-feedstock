@@ -9,7 +9,7 @@ About r-rcppdpr
 
 Home: https://CRAN.R-project.org/package=RcppDPR
 
-Package license: GPL-3.0-or-later
+Package license: GPL-3.0-only
 
 Summary: 'Rcpp' reimplementation of the the Bayesian non-parametric Dirichlet Process Regression model for penalized regression first published in Zeng and Zhou (2017) <doi:10.1038/s41467-017-00470-2>. A full Bayesian version is implemented with Gibbs sampling, as well as a faster but less accurate variational Bayes approximation.
 
@@ -18,7 +18,7 @@ About r-rcppdpr
 
 Home: https://CRAN.R-project.org/package=RcppDPR
 
-Package license: GPL-3.0-or-later
+Package license: GPL-3.0-only
 
 Summary: 'Rcpp' reimplementation of the the Bayesian non-parametric Dirichlet Process Regression model for penalized regression first published in Zeng and Zhou (2017) <doi:10.1038/s41467-017-00470-2>. A full Bayesian version is implemented with Gibbs sampling, as well as a faster but less accurate variational Bayes approximation.
 
