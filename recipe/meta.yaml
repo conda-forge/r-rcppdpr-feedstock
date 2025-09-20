@@ -12,7 +12,7 @@ source:
   sha256: 92c91c2cdcf2030e0a1ffd7de23278b3cb6ab92c5a7bfe994b52bbc470bdb7d5
 
 build:
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -24,11 +24,12 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}              # [not win]
-    - {{ stdlib('c') }}              # [not win]
+    - {{ stdlib('c') }}                # [not win]
     - {{ compiler('m2w64_c') }}        # [win]
-    - {{ stdlib('m2w64_c') }}        # [win]
+    - {{ stdlib('m2w64_c') }}          # [win]
     - {{ compiler('cxx') }}            # [not win]
     - {{ compiler('m2w64_cxx') }}      # [win]
+    - {{ compiler('fortran') }}        # [osx and arm64]
     - {{ posix }}filesystem        # [win]
     - {{ posix }}sed               
     - {{ posix }}grep              # [win]
@@ -64,7 +65,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=RcppDPR
-  license: GPL-3.0-or-later
+  license: GPL-3.0-only
   summary: '''Rcpp'' reimplementation of the the Bayesian non-parametric Dirichlet Process Regression
     model for penalized regression first published in Zeng and Zhou (2017) <doi:10.1038/s41467-017-00470-2>.
     A full Bayesian version is implemented with Gibbs sampling, as well as a faster

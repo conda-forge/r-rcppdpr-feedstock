@@ -9,7 +9,7 @@ About r-rcppdpr
 
 Home: https://CRAN.R-project.org/package=RcppDPR
 
-Package license: GPL-3.0-or-later
+Package license: GPL-3.0-only
 
 Summary: 'Rcpp' reimplementation of the the Bayesian non-parametric Dirichlet Process Regression model for penalized regression first published in Zeng and Zhou (2017) <doi:10.1038/s41467-017-00470-2>. A full Bayesian version is implemented with Gibbs sampling, as well as a faster but less accurate variational Bayes approximation.
 
@@ -18,7 +18,7 @@ About r-rcppdpr
 
 Home: https://CRAN.R-project.org/package=RcppDPR
 
-Package license: GPL-3.0-or-later
+Package license: GPL-3.0-only
 
 Summary: 'Rcpp' reimplementation of the the Bayesian non-parametric Dirichlet Process Regression model for penalized regression first published in Zeng and Zhou (2017) <doi:10.1038/s41467-017-00470-2>. A full Bayesian version is implemented with Gibbs sampling, as well as a faster but less accurate variational Bayes approximation.
 
@@ -40,13 +40,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.3</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=25480&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppdpr-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.4</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=25480&branchName=main">
@@ -54,10 +47,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_r_base4.3</td>
+              <td>linux_64_r_base4.5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=25480&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppdpr-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_r_base4.3" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppdpr-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.5" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -68,10 +61,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_r_base4.3</td>
+              <td>linux_aarch64_r_base4.5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=25480&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppdpr-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_r_base4.3" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppdpr-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_r_base4.5" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -82,10 +75,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.3</td>
+              <td>linux_ppc64le_r_base4.5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=25480&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppdpr-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppdpr-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_r_base4.5" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -96,10 +89,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_r_base4.3</td>
+              <td>osx_64_r_base4.5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=25480&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppdpr-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.3" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppdpr-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.5" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -110,10 +103,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_r_base4.3</td>
+              <td>osx_arm64_r_base4.5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=25480&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppdpr-feedstock?branchName=main&jobName=win&configuration=win%20win_64_r_base4.3" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppdpr-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.5" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -121,6 +114,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=25480&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppdpr-feedstock?branchName=main&jobName=win&configuration=win%20win_64_r_base4.4" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_r_base4.5</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=25480&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppdpr-feedstock?branchName=main&jobName=win&configuration=win%20win_64_r_base4.5" alt="variant">
                 </a>
               </td>
             </tr>
